@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { remote, shell } from 'electron'
 import { Sticky } from './Sticky'
-import { Page } from '../../common/types'
+import { Page } from '../../lib/types'
 import { defaultTheme } from '../theme'
 import { makeBuildMenuItem } from '../menu'
 

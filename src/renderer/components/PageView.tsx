@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeContext } from 'styled-components'
-import { Page } from '../../common/types'
-import { scrapboxUrl, sessionPartition } from '../../common/constants'
+import { Page } from '../../lib/types'
+import { scrapboxUrl, sessionPartition } from '../../lib/constants'
 import { Theme } from '../theme'
 
 const makeCustomCSS = (theme: Theme) => `

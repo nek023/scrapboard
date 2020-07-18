@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Page } from '../../common/types'
+import { Page } from '../../lib/types'
 import { PageView } from './PageView'
 import { Spinner } from './Spinner'
 

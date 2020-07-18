@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { App } from './components/App'
-import { Page } from '../common/types'
+import { Page } from '../lib/types'
 
 const url = new URL(window.location.href)
 const projectName = url.searchParams.get('project')

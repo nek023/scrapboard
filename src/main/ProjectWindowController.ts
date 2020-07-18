@@ -1,7 +1,7 @@
 import { BrowserWindow } from 'electron'
 import { WindowController } from './WindowController'
-import { scrapboxUrl } from '../common/constants'
-import { Page } from '../common/types'
+import { scrapboxUrl } from '../lib/constants'
+import { Page } from '../lib/types'
 
 const customProtocol = 'scrapboard:'
 

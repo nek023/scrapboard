@@ -2,7 +2,7 @@ import React from 'react'
 import { StickyHeader } from './StickyHeader'
 import { StickyBody } from './StickyBody'
 import styled from 'styled-components'
-import { Page } from '../../common/types'
+import { Page } from '../../lib/types'
 
 const Container = styled.div`
   display: flex;

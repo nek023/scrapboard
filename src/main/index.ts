@@ -2,9 +2,9 @@ import { Menu, app, session } from 'electron'
 import { autoUpdater } from 'electron-updater'
 import logger from 'electron-log'
 import { ProjectWindowController } from './ProjectWindowController'
-import { sessionPartition, userAgent } from '../common/constants'
+import { sessionPartition, userAgent } from '../lib/constants'
 import { PageWindowController } from './PageWindowController'
-import { Page } from '../common/types'
+import { Page } from '../lib/types'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 let projectWindowController: ProjectWindowController | undefined

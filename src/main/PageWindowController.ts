@@ -2,8 +2,8 @@ import path from 'path'
 import url from 'url'
 import { BrowserWindow } from 'electron'
 import { WindowController } from './WindowController'
-import { sessionPartition } from '../common/constants'
-import { Page } from '../common/types'
+import { sessionPartition } from '../lib/constants'
+import { Page } from '../lib/types'
 
 export class PageWindowController extends WindowController {
   constructor(page: Page) {
