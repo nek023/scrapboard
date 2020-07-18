@@ -1,8 +1,5 @@
 export const scrapboxUrl = 'https://scrapbox.io'
 
-// ScrapboxのセッションIDを保持するクッキー名
-export const sessionIdCookieName = 'connect.sid'
-
 // アプリ内でセッションを共有するためのパーティション名
 // 頭にpersist:をつけるとアプリ内で永続化される
 export const sessionPartition = 'persist:scrapboard'
